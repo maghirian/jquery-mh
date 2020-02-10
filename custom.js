@@ -1,5 +1,7 @@
 
 $(document).ready(function() {
-    $("html").click(function() {alert("Hello, world!");});
+    $("button").click(function() {
+        // alert("Hello, world!");
+        $("button").css("color", "red");});
 });
 
